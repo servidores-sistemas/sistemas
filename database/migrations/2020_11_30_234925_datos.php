@@ -15,7 +15,7 @@ class Datos extends Migration
     {
         Schema::create('datos', function($table)
         {
-            $table->increments('id');        
+            $table->string('id');        
             $table->string('email');
             $table->string('password');
             $table->string('nombre');
